@@ -1,0 +1,300 @@
+--------- beginning of main
+11-10 10:39:45.059  2191  2199 I native  : I0000 00:00:1699583985.059008    2199 tf_lite_classifier.cc:400] Event stream classified as kNone
+11-10 10:39:47.091  2191  2199 I native  : I0000 00:00:1699583987.091806    2199 tf_lite_classifier.cc:400] Event stream classified as kNone
+11-10 10:39:47.107  1645  1837 I ActivityManager(gang): deng--startProcessLocked
+11-10 10:39:47.107  1645  1837 I ActivityManager(gang): java.lang.Throwable: startProcessLocked
+11-10 10:39:47.107  1645  1837 I ActivityManager(gang): 	at com.android.server.am.ProcessList.startProcessLocked(ProcessList.java:1643)
+11-10 10:39:47.107  1645  1837 I ActivityManager(gang): 	at com.android.server.am.ProcessList.startProcessLocked(ProcessList.java:2372)
+11-10 10:39:47.107  1645  1837 I ActivityManager(gang): 	at com.android.server.am.ProcessList.startProcessLocked(ProcessList.java:2512)
+11-10 10:39:47.107  1645  1837 I ActivityManager(gang): 	at com.android.server.am.ActivityManagerService.startProcessLocked(ActivityManagerService.java:2831)
+11-10 10:39:47.107  1645  1837 I ActivityManager(gang): 	at com.android.server.am.ActivityManagerService$LocalService.startProcess(ActivityManagerService.java:17319)
+11-10 10:39:47.107  1645  1837 I ActivityManager(gang): 	at com.android.server.wm.ActivityTaskManagerService$$ExternalSyntheticLambda11.accept(Unknown Source:27)
+11-10 10:39:47.107  1645  1837 I ActivityManager(gang): 	at com.android.internal.util.function.pooled.PooledLambdaImpl.doInvoke(PooledLambdaImpl.java:363)
+11-10 10:39:47.107  1645  1837 I ActivityManager(gang): 	at com.android.internal.util.function.pooled.PooledLambdaImpl.invoke(PooledLambdaImpl.java:204)
+11-10 10:39:47.107  1645  1837 I ActivityManager(gang): 	at com.android.internal.util.function.pooled.OmniFunction.run(OmniFunction.java:97)
+11-10 10:39:47.107  1645  1837 I ActivityManager(gang): 	at android.os.Handler.handleCallback(Handler.java:942)
+11-10 10:39:47.107  1645  1837 I ActivityManager(gang): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+11-10 10:39:47.107  1645  1837 I ActivityManager(gang): 	at android.os.Looper.loopOnce(Looper.java:201)
+11-10 10:39:47.107  1645  1837 I ActivityManager(gang): 	at android.os.Looper.loop(Looper.java:288)
+11-10 10:39:47.107  1645  1837 I ActivityManager(gang): 	at android.os.HandlerThread.run(HandlerThread.java:67)
+11-10 10:39:47.107  1645  1837 I ActivityManager(gang): 	at com.android.server.ServiceThread.run(ServiceThread.java:44)
+11-10 10:39:47.108  2897  2947 D QuickstepModelDelegate: notifyAppTargetEvent action=1 launchLocation=predictions
+11-10 10:39:47.108  1645  1848 I ZygoteProcess: deng--startViaZygote
+11-10 10:39:47.108  1645  1848 I ZygoteProcess: java.lang.Throwable: startViaZygote
+11-10 10:39:47.108  1645  1848 I ZygoteProcess: 	at android.os.ZygoteProcess.startViaZygote(ZygoteProcess.java:651)
+11-10 10:39:47.108  1645  1848 I ZygoteProcess: 	at android.os.ZygoteProcess.start(ZygoteProcess.java:372)
+11-10 10:39:47.108  1645  1848 I ZygoteProcess: 	at android.os.Process.start(Process.java:734)
+11-10 10:39:47.108  1645  1848 I ZygoteProcess: 	at com.android.server.am.ProcessList.startProcess(ProcessList.java:2322)
+11-10 10:39:47.108  1645  1848 I ZygoteProcess: 	at com.android.server.am.ProcessList.lambda$handleProcessStart$1(ProcessList.java:1974)
+11-10 10:39:47.108  1645  1848 I ZygoteProcess: 	at com.android.server.am.ProcessList.$r8$lambda$yAUAM7lp-U4rR1kIWsGK9Z-eFWc(Unknown Source:0)
+11-10 10:39:47.108  1645  1848 I ZygoteProcess: 	at com.android.server.am.ProcessList$$ExternalSyntheticLambda4.run(Unknown Source:22)
+11-10 10:39:47.108  1645  1848 I ZygoteProcess: 	at com.android.server.am.ProcessList.handleProcessStart(ProcessList.java:2000)
+11-10 10:39:47.108  1645  1848 I ZygoteProcess: 	at com.android.server.am.ProcessList.lambda$startProcessLocked$0(ProcessList.java:1940)
+11-10 10:39:47.108  1645  1848 I ZygoteProcess: 	at com.android.server.am.ProcessList.$r8$lambda$oBmDYaH718rbQmtZhkdQqDR_vGQ(Unknown Source:0)
+11-10 10:39:47.108  1645  1848 I ZygoteProcess: 	at com.android.server.am.ProcessList$$ExternalSyntheticLambda2.run(Unknown Source:22)
+11-10 10:39:47.108  1645  1848 I ZygoteProcess: 	at android.os.Handler.handleCallback(Handler.java:942)
+11-10 10:39:47.108  1645  1848 I ZygoteProcess: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+11-10 10:39:47.108  1645  1848 I ZygoteProcess: 	at android.os.Looper.loopOnce(Looper.java:201)
+11-10 10:39:47.108  1645  1848 I ZygoteProcess: 	at android.os.Looper.loop(Looper.java:288)
+11-10 10:39:47.108  1645  1848 I ZygoteProcess: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+11-10 10:39:47.108  1645  1848 I ZygoteProcess: 	at com.android.server.ServiceThread.run(ServiceThread.java:44)
+11-10 10:39:47.109  1645  1848 I ZygoteProcess: deng--attemptZygoteSendArgsAndGetResult
+11-10 10:39:47.109  1645  1848 I ZygoteProcess: java.lang.Throwable: attemptZygoteSendArgsAndGetResult
+11-10 10:39:47.109  1645  1848 I ZygoteProcess: 	at android.os.ZygoteProcess.attemptZygoteSendArgsAndGetResult(ZygoteProcess.java:466)
+11-10 10:39:47.109  1645  1848 I ZygoteProcess: 	at android.os.ZygoteProcess.zygoteSendArgsAndGetResult(ZygoteProcess.java:460)
+11-10 10:39:47.109  1645  1848 I ZygoteProcess: 	at android.os.ZygoteProcess.startViaZygote(ZygoteProcess.java:790)
+11-10 10:39:47.109  1645  1848 I ZygoteProcess: 	at android.os.ZygoteProcess.start(ZygoteProcess.java:372)
+11-10 10:39:47.109  1645  1848 I ZygoteProcess: 	at android.os.Process.start(Process.java:734)
+11-10 10:39:47.109  1645  1848 I ZygoteProcess: 	at com.android.server.am.ProcessList.startProcess(ProcessList.java:2322)
+11-10 10:39:47.109  1645  1848 I ZygoteProcess: 	at com.android.server.am.ProcessList.lambda$handleProcessStart$1(ProcessList.java:1974)
+11-10 10:39:47.109  1645  1848 I ZygoteProcess: 	at com.android.server.am.ProcessList.$r8$lambda$yAUAM7lp-U4rR1kIWsGK9Z-eFWc(Unknown Source:0)
+11-10 10:39:47.109  1645  1848 I ZygoteProcess: 	at com.android.server.am.ProcessList$$ExternalSyntheticLambda4.run(Unknown Source:22)
+11-10 10:39:47.109  1645  1848 I ZygoteProcess: 	at com.android.server.am.ProcessList.handleProcessStart(ProcessList.java:2000)
+11-10 10:39:47.109  1645  1848 I ZygoteProcess: 	at com.android.server.am.ProcessList.lambda$startProcessLocked$0(ProcessList.java:1940)
+11-10 10:39:47.109  1645  1848 I ZygoteProcess: 	at com.android.server.am.ProcessList.$r8$lambda$oBmDYaH718rbQmtZhkdQqDR_vGQ(Unknown Source:0)
+11-10 10:39:47.109  1645  1848 I ZygoteProcess: 	at com.android.server.am.ProcessList$$ExternalSyntheticLambda2.run(Unknown Source:22)
+11-10 10:39:47.109  1645  1848 I ZygoteProcess: 	at android.os.Handler.handleCallback(Handler.java:942)
+11-10 10:39:47.109  1645  1848 I ZygoteProcess: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+11-10 10:39:47.109  1645  1848 I ZygoteProcess: 	at android.os.Looper.loopOnce(Looper.java:201)
+11-10 10:39:47.109  1645  1848 I ZygoteProcess: 	at android.os.Looper.loop(Looper.java:288)
+11-10 10:39:47.109  1645  1848 I ZygoteProcess: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+11-10 10:39:47.109  1645  1848 I ZygoteProcess: 	at com.android.server.ServiceThread.run(ServiceThread.java:44)
+11-10 10:39:47.110  2477  2524 D SplashScreenView: Build android.window.SplashScreenView{2182b6 V.E...... ......ID 0,0-0,0}
+11-10 10:39:47.110  2477  2524 D SplashScreenView: Icon: view: android.widget.ImageView{2dc4bb7 V.ED..... ......I. 0,0-0,0 #10204dd android:id/splashscreen_icon_view} drawable: com.android.wm.shell.startingsurface.SplashscreenIconDrawableFactory$ImmobileIconDrawable@d682f24 size: 440
+11-10 10:39:47.110  2477  2524 D SplashScreenView: Branding: view: android.view.View{d913a8d G.ED..... ......I. 0,0-0,0 #10204dc android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+11-10 10:39:47.112  2477  2893 W Parcel  : Expecting binder but got null!
+11-10 10:39:47.116  1015  1015 D Zygote  : Forked child process 5223
+11-10 10:39:47.118  1645  2355 I ActivityTaskManager: deng--startSpecificActivity
+11-10 10:39:47.118  1645  2355 I ActivityTaskManager: java.lang.Throwable: startSpecificActivity
+11-10 10:39:47.118  1645  2355 I ActivityTaskManager: 	at com.android.server.wm.ActivityTaskSupervisor.startSpecificActivity(ActivityTaskSupervisor.java:1043)
+11-10 10:39:47.118  1645  2355 I ActivityTaskManager: 	at com.android.server.wm.TaskFragment.resumeTopActivity(TaskFragment.java:1537)
+11-10 10:39:47.118  1645  2355 I ActivityTaskManager: 	at com.android.server.wm.Task.resumeTopActivityInnerLocked(Task.java:5061)
+11-10 10:39:47.118  1645  2355 I ActivityTaskManager: 	at com.android.server.wm.Task.resumeTopActivityUncheckedLocked(Task.java:4991)
+11-10 10:39:47.118  1645  2355 I ActivityTaskManager: 	at com.android.server.wm.RootWindowContainer.resumeFocusedTasksTopActivities(RootWindowContainer.java:2283)
+11-10 10:39:47.118  1645  2355 I ActivityTaskManager: 	at com.android.server.wm.RootWindowContainer.resumeFocusedTasksTopActivities(RootWindowContainer.java:2269)
+11-10 10:39:47.118  1645  2355 I ActivityTaskManager: 	at com.android.server.wm.TaskFragment.completePause(TaskFragment.java:1795)
+11-10 10:39:47.118  1645  2355 I ActivityTaskManager: 	at com.android.server.wm.ActivityRecord.activityPaused(ActivityRecord.java:6252)
+11-10 10:39:47.118  1645  2355 I ActivityTaskManager: 	at com.android.server.wm.ActivityClientController.activityPaused(ActivityClientController.java:190)
+11-10 10:39:47.118  1645  2355 I ActivityTaskManager: 	at android.app.IActivityClientController$Stub.onTransact(IActivityClientController.java:609)
+11-10 10:39:47.118  1645  2355 I ActivityTaskManager: 	at com.android.server.wm.ActivityClientController.onTransact(ActivityClientController.java:127)
+11-10 10:39:47.118  1645  2355 I ActivityTaskManager: 	at android.os.Binder.execTransactInternal(Binder.java:1280)
+11-10 10:39:47.118  1645  2355 I ActivityTaskManager: 	at android.os.Binder.execTransact(Binder.java:1244)
+11-10 10:39:47.119  1645  2355 I ActivityTaskManager: deng--startSpecificActivity
+11-10 10:39:47.119  1645  2355 I ActivityTaskManager: java.lang.Throwable: startSpecificActivity
+11-10 10:39:47.119  1645  2355 I ActivityTaskManager: 	at com.android.server.wm.ActivityTaskSupervisor.startSpecificActivity(ActivityTaskSupervisor.java:1043)
+11-10 10:39:47.119  1645  2355 I ActivityTaskManager: 	at com.android.server.wm.EnsureActivitiesVisibleHelper.makeVisibleAndRestartIfNeeded(EnsureActivitiesVisibleHelper.java:270)
+11-10 10:39:47.119  1645  2355 I ActivityTaskManager: 	at com.android.server.wm.EnsureActivitiesVisibleHelper.setActivityVisibilityState(EnsureActivitiesVisibleHelper.java:196)
+11-10 10:39:47.119  1645  2355 I ActivityTaskManager: 	at com.android.server.wm.EnsureActivitiesVisibleHelper.process(EnsureActivitiesVisibleHelper.java:144)
+11-10 10:39:47.119  1645  2355 I ActivityTaskManager: 	at com.android.server.wm.TaskFragment.updateActivityVisibilities(TaskFragment.java:1165)
+11-10 10:39:47.119  1645  2355 I ActivityTaskManager: 	at com.android.server.wm.Task.lambda$ensureActivitiesVisible$19(Task.java:4887)
+11-10 10:39:47.119  1645  2355 I ActivityTaskManager: 	at com.android.server.wm.Task.$r8$lambda$_DOrrXEWYG-21pqzxbDmuttsewM(Unknown Source:0)
+11-10 10:39:47.119  1645  2355 I ActivityTaskManager: 	at com.android.server.wm.Task$$ExternalSyntheticLambda7.accept(Unknown Source:10)
+11-10 10:39:47.119  1645  2355 I ActivityTaskManager: 	at com.android.server.wm.Task.forAllLeafTasks(Task.java:3186)
+11-10 10:39:47.119  1645  2355 I ActivityTaskManager: 	at com.android.server.wm.Task.ensureActivitiesVisible(Task.java:4886)
+11-10 10:39:47.119  1645  2355 I ActivityTaskManager: 	at com.android.server.wm.DisplayContent.lambda$ensureActivitiesVisible$46(DisplayContent.java:6308)
+11-10 10:39:47.119  1645  2355 I ActivityTaskManager: 	at com.android.server.wm.DisplayContent.$r8$lambda$iAAtt5gobcNIuzjytomEdjbxZcU(Unknown Source:0)
+11-10 10:39:47.119  1645  2355 I ActivityTaskManager: 	at com.android.server.wm.DisplayContent$$ExternalSyntheticLambda27.accept(Unknown Source:10)
+11-10 10:39:47.119  1645  2355 I ActivityTaskManager: 	at com.android.server.wm.Task.forAllRootTasks(Task.java:3198)
+11-10 10:39:47.119  1645  2355 I ActivityTaskManager: 	at com.android.server.wm.WindowContainer.forAllRootTasks(WindowContainer.java:2111)
+11-10 10:39:47.119  1645  2355 I ActivityTaskManager: 	at com.android.server.wm.WindowContainer.forAllRootTasks(WindowContainer.java:2111)
+11-10 10:39:47.119  1645  2355 I ActivityTaskManager: 	at com.android.server.wm.WindowContainer.forAllRootTasks(WindowContainer.java:2111)
+11-10 10:39:47.119  1645  2355 I ActivityTaskManager: 	at com.android.server.wm.WindowContainer.forAllRootTasks(WindowContainer.java:2111)
+11-10 10:39:47.119  1645  2355 I ActivityTaskManager: 	at com.android.server.wm.WindowContainer.forAllRootTasks(WindowContainer.java:2111)
+11-10 10:39:47.119  1645  2355 I ActivityTaskManager: 	at com.android.server.wm.WindowContainer.forAllRootTasks(WindowContainer.java:2111)
+11-10 10:39:47.119  1645  2355 I ActivityTaskManager: 	at com.android.server.wm.WindowContainer.forAllRootTasks(WindowContainer.java:2104)
+11-10 10:39:47.119  1645  2355 I ActivityTaskManager: 	at com.android.server.wm.DisplayContent.ensureActivitiesVisible(DisplayContent.java:6307)
+11-10 10:39:47.119  1645  2355 I ActivityTaskManager: 	at com.android.server.wm.RootWindowContainer.ensureActivitiesVisible(RootWindowContainer.java:1864)
+11-10 10:39:47.119  1645  2355 I ActivityTaskManager: 	at com.android.server.wm.RootWindowContainer.ensureActivitiesVisible(RootWindowContainer.java:1845)
+11-10 10:39:47.119  1645  2355 I ActivityTaskManager: 	at com.android.server.wm.TaskFragment.completePause(TaskFragment.java:1815)
+11-10 10:39:47.119  1645  2355 I ActivityTaskManager: 	at com.android.server.wm.ActivityRecord.activityPaused(ActivityRecord.java:6252)
+11-10 10:39:47.119  1645  2355 I ActivityTaskManager: 	at com.android.server.wm.ActivityClientController.activityPaused(ActivityClientController.java:190)
+11-10 10:39:47.119  1645  2355 I ActivityTaskManager: 	at android.app.IActivityClientController$Stub.onTransact(IActivityClientController.java:609)
+11-10 10:39:47.119  1645  2355 I ActivityTaskManager: 	at com.android.server.wm.ActivityClientController.onTransact(ActivityClientController.java:127)
+11-10 10:39:47.119  1645  2355 I ActivityTaskManager: 	at android.os.Binder.execTransactInternal(Binder.java:1280)
+11-10 10:39:47.119  1645  2355 I ActivityTaskManager: 	at android.os.Binder.execTransact(Binder.java:1244)
+11-10 10:39:47.119  1645  2355 I ActivityTaskManager: deng--scheduleIdle
+11-10 10:39:47.119  1645  2355 I ActivityTaskManager: java.lang.Throwable: scheduleIdle
+11-10 10:39:47.119  1645  2355 I ActivityTaskManager: 	at com.android.server.wm.ActivityTaskSupervisor.scheduleIdle(ActivityTaskSupervisor.java:2093)
+11-10 10:39:47.119  1645  2355 I ActivityTaskManager: 	at com.android.server.wm.ActivityRecord.addToStopping(ActivityRecord.java:6420)
+11-10 10:39:47.119  1645  2355 I ActivityTaskManager: 	at com.android.server.wm.ActivityRecord.makeInvisible(ActivityRecord.java:5992)
+11-10 10:39:47.119  1645  2355 I ActivityTaskManager: 	at com.android.server.wm.EnsureActivitiesVisibleHelper.setActivityVisibilityState(EnsureActivitiesVisibleHelper.java:226)
+11-10 10:39:47.119  1645  2355 I ActivityTaskManager: 	at com.android.server.wm.EnsureActivitiesVisibleHelper.process(EnsureActivitiesVisibleHelper.java:144)
+11-10 10:39:47.119  1645  2355 I ActivityTaskManager: 	at com.android.server.wm.TaskFragment.updateActivityVisibilities(TaskFragment.java:1165)
+11-10 10:39:47.119  1645  2355 I ActivityTaskManager: 	at com.android.server.wm.Task.lambda$ensureActivitiesVisible$19(Task.java:4887)
+11-10 10:39:47.119  1645  2355 I ActivityTaskManager: 	at com.android.server.wm.Task.$r8$lambda$_DOrrXEWYG-21pqzxbDmuttsewM(Unknown Source:0)
+11-10 10:39:47.119  1645  2355 I ActivityTaskManager: 	at com.android.server.wm.Task$$ExternalSyntheticLambda7.accept(Unknown Source:10)
+11-10 10:39:47.119  1645  2355 I ActivityTaskManager: 	at com.android.server.wm.Task.forAllLeafTasks(Task.java:3186)
+11-10 10:39:47.119  1645  2355 I ActivityTaskManager: 	at com.android.server.wm.Task.forAllLeafTasks(Task.java:3174)
+11-10 10:39:47.119  1645  2355 I ActivityTaskManager: 	at com.android.server.wm.Task.ensureActivitiesVisible(Task.java:4886)
+11-10 10:39:47.119  1645  2355 I ActivityTaskManager: 	at com.android.server.wm.DisplayContent.lambda$ensureActivitiesVisible$46(DisplayContent.java:6308)
+11-10 10:39:47.119  1645  2355 I ActivityTaskManager: 	at com.android.server.wm.DisplayContent.$r8$lambda$iAAtt5gobcNIuzjytomEdjbxZcU(Unknown Source:0)
+11-10 10:39:47.119  1645  2355 I ActivityTaskManager: 	at com.android.server.wm.DisplayContent$$ExternalSyntheticLambda27.accept(Unknown Source:10)
+11-10 10:39:47.119  1645  2355 I ActivityTaskManager: 	at com.android.server.wm.Task.forAllRootTasks(Task.java:3198)
+11-10 10:39:47.119  1645  2355 I ActivityTaskManager: 	at com.android.server.wm.WindowContainer.forAllRootTasks(WindowContainer.java:2111)
+11-10 10:39:47.119  1645  2355 I ActivityTaskManager: 	at com.android.server.wm.WindowContainer.forAllRootTasks(WindowContainer.java:2111)
+11-10 10:39:47.119  1645  2355 I ActivityTaskManager: 	at com.android.server.wm.WindowContainer.forAllRootTasks(WindowContainer.java:2111)
+11-10 10:39:47.119  1645  2355 I ActivityTaskManager: 	at com.android.server.wm.WindowContainer.forAllRootTasks(WindowContainer.java:2111)
+11-10 10:39:47.119  1645  2355 I ActivityTaskManager: 	at com.android.server.wm.WindowContainer.forAllRootTasks(WindowContainer.java:2111)
+11-10 10:39:47.119  1645  2355 I ActivityTaskManager: 	at com.android.server.wm.WindowContainer.forAllRootTasks(WindowContainer.java:2111)
+11-10 10:39:47.119  1645  2355 I ActivityTaskManager: 	at com.android.server.wm.WindowContainer.forAllRootTasks(WindowContainer.java:2104)
+11-10 10:39:47.119  1645  2355 I ActivityTaskManager: 	at com.android.server.wm.DisplayContent.ensureActivitiesVisible(DisplayContent.java:6307)
+11-10 10:39:47.119  1645  2355 I ActivityTaskManager: 	at com.android.server.wm.RootWindowContainer.ensureActivitiesVisible(RootWindowContainer.java:1864)
+11-10 10:39:47.119  1645  2355 I ActivityTaskManager: 	at com.android.server.wm.RootWindowContainer.ensureActivitiesVisible(RootWindowContainer.java:1845)
+11-10 10:39:47.119  1645  2355 I ActivityTaskManager: 	at com.android.server.wm.TaskFragment.completePause(TaskFragment.java:1815)
+11-10 10:39:47.119  1645  2355 I ActivityTaskManager: 	at com.android.server.wm.ActivityRecord.activityPaused(ActivityRecord.java:6252)
+11-10 10:39:47.119  1645  2355 I ActivityTaskManager: 	at com.android.server.wm.ActivityClientController.activityPaused(ActivityClientController.java:190)
+11-10 10:39:47.119  1645  2355 I ActivityTaskManager: 	at android.app.IActivityClientController$Stub.onTransact(IActivityClientController.java:609)
+11-10 10:39:47.119  1645  2355 I ActivityTaskManager: 	at com.android.server.wm.ActivityClientController.onTransact(ActivityClientController.java:127)
+11-10 10:39:47.119  1645  2355 I ActivityTaskManager: 	at android.os.Binder.execTransactInternal(Binder.java:1280)
+11-10 10:39:47.119  1645  2355 I ActivityTaskManager: 	at android.os.Binder.execTransact(Binder.java:1244)
+11-10 10:39:47.120  1645  1837 I ActivityTaskManager: deng--activityIdleInternal()
+11-10 10:39:47.120  1645  1837 I ActivityTaskManager: java.lang.Throwable: activityIdleInternal
+11-10 10:39:47.120  1645  1837 I ActivityTaskManager: 	at com.android.server.wm.ActivityTaskSupervisor.activityIdleInternal(ActivityTaskSupervisor.java:1358)
+11-10 10:39:47.120  1645  1837 I ActivityTaskManager: 	at com.android.server.wm.ActivityTaskSupervisor$ActivityTaskSupervisorHandler.activityIdleFromMessage(ActivityTaskSupervisor.java:2454)
+11-10 10:39:47.120  1645  1837 I ActivityTaskManager: 	at com.android.server.wm.ActivityTaskSupervisor$ActivityTaskSupervisorHandler.handleMessageInner(ActivityTaskSupervisor.java:2487)
+11-10 10:39:47.120  1645  1837 I ActivityTaskManager: 	at com.android.server.wm.ActivityTaskSupervisor$ActivityTaskSupervisorHandler.handleMessage(ActivityTaskSupervisor.java:2429)
+11-10 10:39:47.120  1645  1837 I ActivityTaskManager: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+11-10 10:39:47.120  1645  1837 I ActivityTaskManager: 	at android.os.Looper.loopOnce(Looper.java:201)
+11-10 10:39:47.120  1645  1837 I ActivityTaskManager: 	at android.os.Looper.loop(Looper.java:288)
+11-10 10:39:47.120  1645  1837 I ActivityTaskManager: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+11-10 10:39:47.120  1645  1837 I ActivityTaskManager: 	at com.android.server.ServiceThread.run(ServiceThread.java:44)
+11-10 10:39:47.130  2477  2893 E OpenGLRenderer: Unable to match the desired swap behavior.
+11-10 10:39:47.131  1426  1454 I adbd    : jdwp connection from 5223
+11-10 10:39:47.140  5223  5223 I Zygote  : deng-caller != null, so run
+11-10 10:39:47.147  5223  5223 D CompatibilityChangeReporter: Compat change id reported: 171979766; UID 10163; state: ENABLED
+11-10 10:39:47.148  1645  5214 D ConnectivityService: requestNetwork for uid/pid:10181/2477 asUid: 10163 activeRequest: null callbackRequest: 89 [NetworkRequest [ REQUEST id=90, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10163 RequestorUid: 10181 RequestorPkg: com.android.systemui UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647
+11-10 10:39:47.150  1645  2301 D ConnectivityService: NetReassign [no changes]
+11-10 10:39:47.151  5223  5223 D nativeloader: classloader namespace configured for unbundled product apk. library_path=/product/app/ExactCalculator/lib/arm64:/product/lib64:/system/product/lib64
+11-10 10:39:47.151  1645  2282 D WifiNetworkFactory: got request NetworkRequest [ REQUEST id=90, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10163 RequestorUid: 10181 RequestorPkg: com.android.systemui UnderlyingNetworks: Null] ]
+11-10 10:39:47.151  1645  2282 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=90, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10163 RequestorUid: 10181 RequestorPkg: com.android.systemui UnderlyingNetworks: Null] ]
+11-10 10:39:47.151  1645  2282 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=90, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10163 RequestorUid: 10181 RequestorPkg: com.android.systemui UnderlyingNetworks: Null] ]
+11-10 10:39:47.151  1645  2282 D MultiInternetWifiNetworkFactory: got request NetworkRequest [ REQUEST id=90, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10163 RequestorUid: 10181 RequestorPkg: com.android.systemui UnderlyingNetworks: Null] ]
+11-10 10:39:47.152  2760  2760 D PhoneSwitcherNetworkRequstListener: got request NetworkRequest [ REQUEST id=90, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10163 RequestorUid: 10181 RequestorPkg: com.android.systemui UnderlyingNetworks: Null] ]
+11-10 10:39:47.157  5223  5223 V GraphicsEnvironment: ANGLE Developer option for 'com.android.calculator2' set to: 'default'
+11-10 10:39:47.157  5223  5223 V GraphicsEnvironment: ANGLE GameManagerService for com.android.calculator2: false
+11-10 10:39:47.157  5223  5223 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+11-10 10:39:47.159  5223  5223 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+11-10 10:39:47.159  5223  5223 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+11-10 10:39:47.172  5223  5223 D CompatibilityChangeReporter: Compat change id reported: 210923482; UID 10163; state: ENABLED
+11-10 10:39:47.173  5223  5223 D CompatibilityChangeReporter: Compat change id reported: 171228096; UID 10163; state: ENABLED
+11-10 10:39:47.191  5223  5223 V Calculator: Setting locale to: zh-CN
+11-10 10:39:47.196  5223  5223 D CompatibilityChangeReporter: Compat change id reported: 237531167; UID 10163; state: DISABLED
+11-10 10:39:47.199  5223  5241 W Parcel  : Expecting binder but got null!
+11-10 10:39:47.225  5223  5241 I AdrenoGLES-0: QUALCOMM build                   : 85da404, I46ff5fc46f
+11-10 10:39:47.225  5223  5241 I AdrenoGLES-0: Build Date                       : 11/30/20
+11-10 10:39:47.225  5223  5241 I AdrenoGLES-0: OpenGL ES Shader Compiler Version: EV031.31.04.01
+11-10 10:39:47.225  5223  5241 I AdrenoGLES-0: Local Branch                     : promo490_3_Google
+11-10 10:39:47.225  5223  5241 I AdrenoGLES-0: Remote Branch                    : 
+11-10 10:39:47.225  5223  5241 I AdrenoGLES-0: Remote Branch                    : 
+11-10 10:39:47.225  5223  5241 I AdrenoGLES-0: Reconstruct Branch               : 
+11-10 10:39:47.225  5223  5241 I AdrenoGLES-0: Build Config                     : S P 10.0.4 AArch64
+11-10 10:39:47.225  5223  5241 I AdrenoGLES-0: Driver Path                      : /vendor/lib64/egl/libGLESv2_adreno.so
+11-10 10:39:47.232  5223  5241 I AdrenoGLES-0: PFP: 0x016ee190, ME: 0x00000000
+11-10 10:39:47.234  5223  5241 W AdrenoUtils: <ReadGpuID_from_sysfs:197>: Failed to open /sys/class/kgsl/kgsl-3d0/gpu_model
+11-10 10:39:47.234  5223  5241 W AdrenoUtils: <ReadGpuID:221>: Failed to read chip ID from gpu_model. Fallback to use the GSL path
+11-10 10:39:47.238   703   735 W TransactionTracing: Could not find layer handle 0xb400006f35acd950
+11-10 10:39:47.238   703   735 W TransactionTracing: Could not find layer handle 0xb400006f35accf90
+11-10 10:39:47.240   705   742 I SDM     : HWCDisplay::GetColorModeCount: Supported color mode count = 3
+11-10 10:39:47.243  5223  5241 E OpenGLRenderer: Unable to match the desired swap behavior.
+11-10 10:39:47.246   646   646 I servicemanager: Could not find android.hardware.graphics.allocator.IAllocator/default in the VINTF manifest.
+11-10 10:39:47.247  5223  5248 I Gralloc4: Adding additional valid usage bits: 0x0
+11-10 10:39:47.275  1645  1834 I ActivityTaskManager: Displayed com.android.calculator2/.Calculator: +176ms
+11-10 10:39:47.278  1645  2355 I ActivityTaskManager: deng--activityIdleInternal()
+11-10 10:39:47.278  1645  2355 I ActivityTaskManager: java.lang.Throwable: activityIdleInternal
+11-10 10:39:47.278  1645  2355 I ActivityTaskManager: 	at com.android.server.wm.ActivityTaskSupervisor.activityIdleInternal(ActivityTaskSupervisor.java:1358)
+11-10 10:39:47.278  1645  2355 I ActivityTaskManager: 	at com.android.server.wm.ActivityClientController.activityIdle(ActivityClientController.java:144)
+11-10 10:39:47.278  1645  2355 I ActivityTaskManager: 	at android.app.IActivityClientController$Stub.onTransact(IActivityClientController.java:577)
+11-10 10:39:47.278  1645  2355 I ActivityTaskManager: 	at com.android.server.wm.ActivityClientController.onTransact(ActivityClientController.java:127)
+11-10 10:39:47.278  1645  2355 I ActivityTaskManager: 	at android.os.Binder.execTransactInternal(Binder.java:1285)
+11-10 10:39:47.278  1645  2355 I ActivityTaskManager: 	at android.os.Binder.execTransact(Binder.java:1244)
+11-10 10:39:47.305   703   735 W TransactionTracing: Could not find layer handle 0xb400006f35ac9ab0
+11-10 10:39:47.649  1645  5214 W InputManager-JNI: Input channel object '3e9d945 Splash Screen com.android.calculator2 (client)' was disposed without first being removed with the input manager!
+11-10 10:39:47.675  1645  5214 I ActivityTaskManager: deng--scheduleIdle
+11-10 10:39:47.675  1645  5214 I ActivityTaskManager: java.lang.Throwable: scheduleIdle
+11-10 10:39:47.675  1645  5214 I ActivityTaskManager: 	at com.android.server.wm.ActivityTaskSupervisor.scheduleIdle(ActivityTaskSupervisor.java:2093)
+11-10 10:39:47.675  1645  5214 I ActivityTaskManager: 	at com.android.server.wm.ActivityTaskSupervisor.scheduleProcessStoppingAndFinishingActivitiesIfNeeded(ActivityTaskSupervisor.java:2206)
+11-10 10:39:47.675  1645  5214 I ActivityTaskManager: 	at com.android.server.wm.ActivityRecord.onAnimationFinished(ActivityRecord.java:7685)
+11-10 10:39:47.675  1645  5214 I ActivityTaskManager: 	at com.android.server.wm.WindowContainer.doAnimationFinished(WindowContainer.java:3397)
+11-10 10:39:47.675  1645  5214 I ActivityTaskManager: 	at com.android.server.wm.WindowContainer.onAnimationFinished(WindowContainer.java:3409)
+11-10 10:39:47.675  1645  5214 I ActivityTaskManager: 	at com.android.server.wm.WindowContainer$$ExternalSyntheticLambda4.onAnimationFinished(Unknown Source:2)
+11-10 10:39:47.675  1645  5214 I ActivityTaskManager: 	at com.android.server.wm.SurfaceAnimator.lambda$getFinishedCallback$0(SurfaceAnimator.java:133)
+11-10 10:39:47.675  1645  5214 I ActivityTaskManager: 	at com.android.server.wm.SurfaceAnimator.$r8$lambda$lRxTVOJy8fX752UbrFno9INW9hE(Unknown Source:0)
+11-10 10:39:47.675  1645  5214 I ActivityTaskManager: 	at com.android.server.wm.SurfaceAnimator$$ExternalSyntheticLambda1.run(Unknown Source:8)
+11-10 10:39:47.675  1645  5214 I ActivityTaskManager: 	at com.android.server.wm.SurfaceAnimator.lambda$getFinishedCallback$1(SurfaceAnimator.java:143)
+11-10 10:39:47.675  1645  5214 I ActivityTaskManager: 	at com.android.server.wm.SurfaceAnimator.$r8$lambda$4PiCdaEsT4mA6LQVhqpeM5EoU9c(Unknown Source:0)
+11-10 10:39:47.675  1645  5214 I ActivityTaskManager: 	at com.android.server.wm.SurfaceAnimator$$ExternalSyntheticLambda0.onAnimationFinished(Unknown Source:4)
+11-10 10:39:47.675  1645  5214 I ActivityTaskManager: 	at com.android.server.wm.RemoteAnimationController.onAnimationFinished(RemoteAnimationController.java:316)
+11-10 10:39:47.675  1645  5214 I ActivityTaskManager: 	at com.android.server.wm.RemoteAnimationController.-$$Nest$monAnimationFinished(Unknown Source:0)
+11-10 10:39:47.675  1645  5214 I ActivityTaskManager: 	at com.android.server.wm.RemoteAnimationController$FinishedCallback.onAnimationFinished(RemoteAnimationController.java:432)
+11-10 10:39:47.675  1645  5214 I ActivityTaskManager: 	at android.view.IRemoteAnimationFinishedCallback$Stub.onTransact(IRemoteAnimationFinishedCallback.java:89)
+11-10 10:39:47.675  1645  5214 I ActivityTaskManager: 	at android.os.Binder.execTransactInternal(Binder.java:1285)
+11-10 10:39:47.675  1645  5214 I ActivityTaskManager: 	at android.os.Binder.execTransact(Binder.java:1244)
+11-10 10:39:47.677  1645  5214 I ActivityTaskManager: deng--scheduleIdle
+11-10 10:39:47.677  1645  5214 I ActivityTaskManager: java.lang.Throwable: scheduleIdle
+11-10 10:39:47.677  1645  5214 I ActivityTaskManager: 	at com.android.server.wm.ActivityTaskSupervisor.scheduleIdle(ActivityTaskSupervisor.java:2093)
+11-10 10:39:47.677  1645  5214 I ActivityTaskManager: 	at com.android.server.wm.ActivityTaskSupervisor.scheduleProcessStoppingAndFinishingActivitiesIfNeeded(ActivityTaskSupervisor.java:2206)
+11-10 10:39:47.677  1645  5214 I ActivityTaskManager: 	at com.android.server.wm.ActivityRecord.onWindowsVisible(ActivityRecord.java:6708)
+11-10 10:39:47.677  1645  5214 I ActivityTaskManager: 	at com.android.server.wm.ActivityRecord.updateReportedVisibilityLocked(ActivityRecord.java:6809)
+11-10 10:39:47.677  1645  5214 I ActivityTaskManager: 	at com.android.server.wm.WindowManagerService$4.onAppTransitionFinishedLocked(WindowManagerService.java:1149)
+11-10 10:39:47.677  1645  5214 I ActivityTaskManager: 	at com.android.server.wm.AppTransition.notifyAppTransitionFinishedLocked(AppTransition.java:513)
+11-10 10:39:47.677  1645  5214 I ActivityTaskManager: 	at com.android.server.wm.ActivityRecord.onAnimationFinished(ActivityRecord.java:7680)
+11-10 10:39:47.677  1645  5214 I ActivityTaskManager: 	at com.android.server.wm.WindowContainer.doAnimationFinished(WindowContainer.java:3397)
+11-10 10:39:47.677  1645  5214 I ActivityTaskManager: 	at com.android.server.wm.WindowContainer.onAnimationFinished(WindowContainer.java:3409)
+11-10 10:39:47.677  1645  5214 I ActivityTaskManager: 	at com.android.server.wm.WindowContainer$$ExternalSyntheticLambda4.onAnimationFinished(Unknown Source:2)
+11-10 10:39:47.677  1645  5214 I ActivityTaskManager: 	at com.android.server.wm.SurfaceAnimator.lambda$getFinishedCallback$0(SurfaceAnimator.java:133)
+11-10 10:39:47.677  1645  5214 I ActivityTaskManager: 	at com.android.server.wm.SurfaceAnimator.$r8$lambda$lRxTVOJy8fX752UbrFno9INW9hE(Unknown Source:0)
+11-10 10:39:47.677  1645  5214 I ActivityTaskManager: 	at com.android.server.wm.SurfaceAnimator$$ExternalSyntheticLambda1.run(Unknown Source:8)
+11-10 10:39:47.677  1645  5214 I ActivityTaskManager: 	at com.android.server.wm.SurfaceAnimator.lambda$getFinishedCallback$1(SurfaceAnimator.java:143)
+11-10 10:39:47.677  1645  5214 I ActivityTaskManager: 	at com.android.server.wm.SurfaceAnimator.$r8$lambda$4PiCdaEsT4mA6LQVhqpeM5EoU9c(Unknown Source:0)
+11-10 10:39:47.677  1645  5214 I ActivityTaskManager: 	at com.android.server.wm.SurfaceAnimator$$ExternalSyntheticLambda0.onAnimationFinished(Unknown Source:4)
+11-10 10:39:47.677  1645  5214 I ActivityTaskManager: 	at com.android.server.wm.RemoteAnimationController.onAnimationFinished(RemoteAnimationController.java:316)
+11-10 10:39:47.677  1645  5214 I ActivityTaskManager: 	at com.android.server.wm.RemoteAnimationController.-$$Nest$monAnimationFinished(Unknown Source:0)
+11-10 10:39:47.677  1645  5214 I ActivityTaskManager: 	at com.android.server.wm.RemoteAnimationController$FinishedCallback.onAnimationFinished(RemoteAnimationController.java:432)
+11-10 10:39:47.677  1645  5214 I ActivityTaskManager: 	at android.view.IRemoteAnimationFinishedCallback$Stub.onTransact(IRemoteAnimationFinishedCallback.java:89)
+11-10 10:39:47.677  1645  5214 I ActivityTaskManager: 	at android.os.Binder.execTransactInternal(Binder.java:1285)
+11-10 10:39:47.677  1645  5214 I ActivityTaskManager: 	at android.os.Binder.execTransact(Binder.java:1244)
+11-10 10:39:47.678  1645  5214 I ActivityTaskManager: deng--scheduleIdle
+11-10 10:39:47.678  1645  5214 I ActivityTaskManager: java.lang.Throwable: scheduleIdle
+11-10 10:39:47.678  1645  5214 I ActivityTaskManager: 	at com.android.server.wm.ActivityTaskSupervisor.scheduleIdle(ActivityTaskSupervisor.java:2093)
+11-10 10:39:47.678  1645  5214 I ActivityTaskManager: 	at com.android.server.wm.ActivityTaskSupervisor.scheduleProcessStoppingAndFinishingActivitiesIfNeeded(ActivityTaskSupervisor.java:2206)
+11-10 10:39:47.678  1645  5214 I ActivityTaskManager: 	at com.android.server.wm.ActivityRecord.onAnimationFinished(ActivityRecord.java:7685)
+11-10 10:39:47.678  1645  5214 I ActivityTaskManager: 	at com.android.server.wm.WindowContainer.doAnimationFinished(WindowContainer.java:3397)
+11-10 10:39:47.678  1645  5214 I ActivityTaskManager: 	at com.android.server.wm.WindowContainer.onAnimationFinished(WindowContainer.java:3409)
+11-10 10:39:47.678  1645  5214 I ActivityTaskManager: 	at com.android.server.wm.WindowContainer$$ExternalSyntheticLambda4.onAnimationFinished(Unknown Source:2)
+11-10 10:39:47.678  1645  5214 I ActivityTaskManager: 	at com.android.server.wm.SurfaceAnimator.lambda$getFinishedCallback$0(SurfaceAnimator.java:133)
+11-10 10:39:47.678  1645  5214 I ActivityTaskManager: 	at com.android.server.wm.SurfaceAnimator.$r8$lambda$lRxTVOJy8fX752UbrFno9INW9hE(Unknown Source:0)
+11-10 10:39:47.678  1645  5214 I ActivityTaskManager: 	at com.android.server.wm.SurfaceAnimator$$ExternalSyntheticLambda1.run(Unknown Source:8)
+11-10 10:39:47.678  1645  5214 I ActivityTaskManager: 	at com.android.server.wm.SurfaceAnimator.lambda$getFinishedCallback$1(SurfaceAnimator.java:143)
+11-10 10:39:47.678  1645  5214 I ActivityTaskManager: 	at com.android.server.wm.SurfaceAnimator.$r8$lambda$4PiCdaEsT4mA6LQVhqpeM5EoU9c(Unknown Source:0)
+11-10 10:39:47.678  1645  5214 I ActivityTaskManager: 	at com.android.server.wm.SurfaceAnimator$$ExternalSyntheticLambda0.onAnimationFinished(Unknown Source:4)
+11-10 10:39:47.678  1645  5214 I ActivityTaskManager: 	at com.android.server.wm.RemoteAnimationController.onAnimationFinished(RemoteAnimationController.java:316)
+11-10 10:39:47.678  1645  5214 I ActivityTaskManager: 	at com.android.server.wm.RemoteAnimationController.-$$Nest$monAnimationFinished(Unknown Source:0)
+11-10 10:39:47.678  1645  5214 I ActivityTaskManager: 	at com.android.server.wm.RemoteAnimationController$FinishedCallback.onAnimationFinished(RemoteAnimationController.java:432)
+11-10 10:39:47.678  1645  5214 I ActivityTaskManager: 	at android.view.IRemoteAnimationFinishedCallback$Stub.onTransact(IRemoteAnimationFinishedCallback.java:89)
+11-10 10:39:47.678  1645  5214 I ActivityTaskManager: 	at android.os.Binder.execTransactInternal(Binder.java:1285)
+11-10 10:39:47.678  1645  5214 I ActivityTaskManager: 	at android.os.Binder.execTransact(Binder.java:1244)
+11-10 10:39:47.682  1645  1837 I ActivityTaskManager: deng--activityIdleInternal()
+11-10 10:39:47.682  1645  1837 I ActivityTaskManager: java.lang.Throwable: activityIdleInternal
+11-10 10:39:47.682  1645  1837 I ActivityTaskManager: 	at com.android.server.wm.ActivityTaskSupervisor.activityIdleInternal(ActivityTaskSupervisor.java:1358)
+11-10 10:39:47.682  1645  1837 I ActivityTaskManager: 	at com.android.server.wm.ActivityTaskSupervisor$ActivityTaskSupervisorHandler.activityIdleFromMessage(ActivityTaskSupervisor.java:2454)
+11-10 10:39:47.682  1645  1837 I ActivityTaskManager: 	at com.android.server.wm.ActivityTaskSupervisor$ActivityTaskSupervisorHandler.handleMessageInner(ActivityTaskSupervisor.java:2487)
+11-10 10:39:47.682  1645  1837 I ActivityTaskManager: 	at com.android.server.wm.ActivityTaskSupervisor$ActivityTaskSupervisorHandler.handleMessage(ActivityTaskSupervisor.java:2429)
+11-10 10:39:47.682  1645  1837 I ActivityTaskManager: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+11-10 10:39:47.682  1645  1837 I ActivityTaskManager: 	at android.os.Looper.loopOnce(Looper.java:201)
+11-10 10:39:47.682  1645  1837 I ActivityTaskManager: 	at android.os.Looper.loop(Looper.java:288)
+11-10 10:39:47.682  1645  1837 I ActivityTaskManager: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+11-10 10:39:47.682  1645  1837 I ActivityTaskManager: 	at com.android.server.ServiceThread.run(ServiceThread.java:44)
+11-10 10:39:47.683  1645  1837 I ActivityTaskManager: deng--activityIdleInternal()
+11-10 10:39:47.683  1645  1837 I ActivityTaskManager: java.lang.Throwable: activityIdleInternal
+11-10 10:39:47.683  1645  1837 I ActivityTaskManager: 	at com.android.server.wm.ActivityTaskSupervisor.activityIdleInternal(ActivityTaskSupervisor.java:1358)
+11-10 10:39:47.683  1645  1837 I ActivityTaskManager: 	at com.android.server.wm.ActivityTaskSupervisor$ActivityTaskSupervisorHandler.activityIdleFromMessage(ActivityTaskSupervisor.java:2454)
+11-10 10:39:47.683  1645  1837 I ActivityTaskManager: 	at com.android.server.wm.ActivityTaskSupervisor$ActivityTaskSupervisorHandler.handleMessageInner(ActivityTaskSupervisor.java:2487)
+11-10 10:39:47.683  1645  1837 I ActivityTaskManager: 	at com.android.server.wm.ActivityTaskSupervisor$ActivityTaskSupervisorHandler.handleMessage(ActivityTaskSupervisor.java:2429)
+11-10 10:39:47.683  1645  1837 I ActivityTaskManager: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+11-10 10:39:47.683  1645  1837 I ActivityTaskManager: 	at android.os.Looper.loopOnce(Looper.java:201)
+11-10 10:39:47.683  1645  1837 I ActivityTaskManager: 	at android.os.Looper.loop(Looper.java:288)
+11-10 10:39:47.683  1645  1837 I ActivityTaskManager: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+11-10 10:39:47.683  1645  1837 I ActivityTaskManager: 	at com.android.server.ServiceThread.run(ServiceThread.java:44)
+11-10 10:39:47.710  2897  2897 W FrameTracker: Missing HWUI jank callback for vsyncId: 48306, CUJ=J<LAUNCHER_APP_LAUNCH_FROM_ICON>
+11-10 10:39:47.722   703   735 W TransactionTracing: Could not find layer handle 0xb400006f35acbd30
+11-10 10:39:47.833   703   735 W TransactionTracing: Could not find layer handle 0xb400006f35acd350
