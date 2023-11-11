@@ -1,4 +1,4 @@
-package org.example.design_partern;
+package org.example.design_partern.proxy_mode;
 
 //诉讼人
 public class Me implements ILawSuit{

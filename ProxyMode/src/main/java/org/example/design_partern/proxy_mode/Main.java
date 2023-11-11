@@ -1,4 +1,4 @@
-package org.example.design_partern;
+package org.example.design_partern.proxy_mode;
 
 //此com.example.proxy_mode_learn包，copy到idea运行
 //此目录主要是想解释静态代理类，动态代理需要使用InvocationHandler,后续再填坑

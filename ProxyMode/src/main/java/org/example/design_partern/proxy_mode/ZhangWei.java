@@ -1,4 +1,4 @@
-package org.example.design_partern;
+package org.example.design_partern.proxy_mode;
 
 //律师
 public class ZhangWei implements ILawSuit {
