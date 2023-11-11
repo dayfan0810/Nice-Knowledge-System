@@ -1,1 +1,0 @@
-adb logcat -b all -c && adb logcat -b main > 222.txt
