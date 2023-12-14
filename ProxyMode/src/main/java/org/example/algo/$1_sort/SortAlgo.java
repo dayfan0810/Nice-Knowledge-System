@@ -1,4 +1,4 @@
-package org.example.algo;
+package org.example.algo.$1_sort;
 
 public class SortAlgo {
 
