@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="86a23fa5-f275-460d-a772-cb6069f20991" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/algo/$1_sort/BubbleSortAlgorithm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/algo/SortAlgo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Android.asta" beforeDir="false" afterPath="$PROJECT_DIR$/../Android.asta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/algo/$1_sort/QuickSortAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/algo/$2_Linkedlist/$0_mine_deleteNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/algo/$2_Linkedlist/$141_hasCycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/algo/$2_Linkedlist/$2_addTwoNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/algo/$2_Linkedlist/$876_middleNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -21,6 +23,23 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ProxyMode" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -31,6 +50,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -43,16 +65,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/code/Android启动/Nice-Knowledge-System/ProxyMode&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.$0_mine_deleteNode.executor": "Run",
+    "Application.$141_hasCycle.executor": "Debug",
+    "Application.$876_middleNode (1).executor": "Run",
+    "Application.$876_middleNode (2).executor": "Debug",
+    "Application.$876_middleNode.executor": "Run",
+    "Application.MiddleIndexCalculator.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/code/Android启动/Nice-Knowledge-System/ProxyMode",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\jerry\IdeaProjects\ProxyMode\src\main\java\org\example" />
@@ -61,13 +91,13 @@
       <recent name="org.example.design_partern.singleton_mode" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BubbleSortAlgorithm">
-    <configuration name="BubbleSortAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.algo.$1_sort.BubbleSortAlgorithm" />
+  <component name="RunManager" selected="Application.$0_mine_deleteNode">
+    <configuration name="$0_mine_deleteNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.algo.$2_Linkedlist.$0_mine_deleteNode" />
       <module name="ProxyMode.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.algo.$1_sort.*" />
+          <option name="PATTERN" value="org.example.algo.$2_Linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SystemServer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.ams.SystemServer" />
+    <configuration name="$876_middleNode (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.algo.$2_Linkedlist.$876_middleNode" />
       <module name="ProxyMode.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.ams.*" />
+          <option name="PATTERN" value="org.example.algo.$2_Linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SystemServer (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.ams.SystemServer" />
+    <configuration name="$876_middleNode (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.algo.$2_Linkedlist.$876_middleNode" />
       <module name="ProxyMode.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.ams.*" />
+          <option name="PATTERN" value="org.example.algo.$2_Linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SystemServer (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.ams.SystemServer" />
+    <configuration name="$876_middleNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.algo.$2_Linkedlist.$876_middleNode" />
       <module name="ProxyMode.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.ams.*" />
+          <option name="PATTERN" value="org.example.algo.$2_Linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +144,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SystemServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.ams.SystemServer" />
+    <configuration name="MiddleIndexCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.algo.MiddleIndexCalculator" />
       <module name="ProxyMode.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.ams.*" />
+          <option name="PATTERN" value="org.example.algo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,13 +159,20 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BubbleSortAlgorithm" />
-        <item itemvalue="Application.SystemServer" />
-        <item itemvalue="Application.SystemServer (3)" />
-        <item itemvalue="Application.SystemServer (2)" />
-        <item itemvalue="Application.SystemServer (1)" />
+        <item itemvalue="Application.$0_mine_deleteNode" />
+        <item itemvalue="Application.MiddleIndexCalculator" />
+        <item itemvalue="Application.$876_middleNode (2)" />
+        <item itemvalue="Application.$876_middleNode (1)" />
+        <item itemvalue="Application.$876_middleNode" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-11.0.21-corretto-11.0.21-249ae16d76d6-d0fa0211" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -147,5 +184,16 @@
       <updated>1698907803725</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/algo/$2_Linkedlist/$876_middleNode.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
